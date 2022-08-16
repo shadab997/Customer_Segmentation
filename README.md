@@ -13,15 +13,15 @@ Principal component analysis(PCA) is used to reduce the number of variables for 
 ## steps
 1.importing libraries
 2.importing dataset
-4. Finding the missing values and replacing them
-5. Checking the duplicate entries
-6.Dropping object entries
-7.Correlation matrix formation
-8.Feature scaling
-9.Building the clustering model and calculating the values of the Distortion and Inertia (Elbow Method)
-10.Applying k-means
-11.applying PCA
-12. Visualisation of clusters
+3. Finding the missing values and replacing them
+4. Checking the duplicate entries
+5.Dropping object entries
+6.Correlation matrix formation
+7.Feature scaling
+8.Building the clustering model and calculating the values of the Distortion and Inertia (Elbow Method)
+9.Applying k-means
+10.applying PCA
+11. Visualisation of clusters
 ## Findings
 K-means clustering was used after utilizing the elbow method to divide customers into 7 clusters.
 I applied PCA, reduced it to two principle components, then utilized the Seaborn library to better visualize the various clusters.
